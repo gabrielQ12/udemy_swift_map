@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Stadium {
+    var name: String
+    var lat: Double
+    var lon: Double
+    var capacity: Int
+}

@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		0E6C07C72B7B93D1007362A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07C62B7B93D1007362A3 /* AppDelegate.swift */; };
 		0E6C07C92B7B93D1007362A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07C82B7B93D1007362A3 /* SceneDelegate.swift */; };
-		0E6C07CB2B7B93D1007362A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07CA2B7B93D1007362A3 /* ViewController.swift */; };
 		0E6C07CE2B7B93D1007362A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6C07CC2B7B93D1007362A3 /* Main.storyboard */; };
 		0E6C07D02B7B93D4007362A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6C07CF2B7B93D4007362A3 /* Assets.xcassets */; };
 		0E6C07D32B7B93D4007362A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6C07D12B7B93D4007362A3 /* LaunchScreen.storyboard */; };
+		0E6C07DE2B7B9743007362A3 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07DD2B7B9743007362A3 /* MapVC.swift */; };
+		0E6C07E02B7B9765007362A3 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07DF2B7B9765007362A3 /* TableVC.swift */; };
+		0E6C07E22B7B97C4007362A3 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07E12B7B97C4007362A3 /* Club.swift */; };
+		0E6C07E42B7B982B007362A3 /* Stadium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07E32B7B982B007362A3 /* Stadium.swift */; };
+		0E6C07E62B7B9865007362A3 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07E52B7B9865007362A3 /* Datas.swift */; };
+		0E6C07E82B7BA2B6007362A3 /* ClubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C07E72B7BA2B6007362A3 /* ClubCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E6C07C32B7B93D1007362A3 /* Top14Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top14Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6C07C62B7B93D1007362A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E6C07C82B7B93D1007362A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E6C07CA2B7B93D1007362A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E6C07CD2B7B93D1007362A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E6C07CF2B7B93D4007362A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E6C07D22B7B93D4007362A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E6C07D42B7B93D4007362A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6C07DD2B7B9743007362A3 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		0E6C07DF2B7B9765007362A3 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		0E6C07E12B7B97C4007362A3 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		0E6C07E32B7B982B007362A3 /* Stadium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stadium.swift; sourceTree = "<group>"; };
+		0E6C07E52B7B9865007362A3 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		0E6C07E72B7BA2B6007362A3 /* ClubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,44 @@
 		0E6C07C52B7B93D1007362A3 /* Top14Map */ = {
 			isa = PBXGroup;
 			children = (
-				0E6C07C62B7B93D1007362A3 /* AppDelegate.swift */,
+				0E6C07DC2B7B9489007362A3 /* Model */,
+				0E6C07DA2B7B9474007362A3 /* View */,
+				0E6C07DB2B7B947E007362A3 /* Controller */,
 				0E6C07C82B7B93D1007362A3 /* SceneDelegate.swift */,
-				0E6C07CA2B7B93D1007362A3 /* ViewController.swift */,
+				0E6C07C62B7B93D1007362A3 /* AppDelegate.swift */,
 				0E6C07CC2B7B93D1007362A3 /* Main.storyboard */,
 				0E6C07CF2B7B93D4007362A3 /* Assets.xcassets */,
 				0E6C07D12B7B93D4007362A3 /* LaunchScreen.storyboard */,
 				0E6C07D42B7B93D4007362A3 /* Info.plist */,
 			);
 			path = Top14Map;
+			sourceTree = "<group>";
+		};
+		0E6C07DA2B7B9474007362A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E6C07E72B7BA2B6007362A3 /* ClubCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E6C07DB2B7B947E007362A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E6C07DD2B7B9743007362A3 /* MapVC.swift */,
+				0E6C07DF2B7B9765007362A3 /* TableVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E6C07DC2B7B9489007362A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E6C07E12B7B97C4007362A3 /* Club.swift */,
+				0E6C07E32B7B982B007362A3 /* Stadium.swift */,
+				0E6C07E52B7B9865007362A3 /* Datas.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E6C07CB2B7B93D1007362A3 /* ViewController.swift in Sources */,
 				0E6C07C72B7B93D1007362A3 /* AppDelegate.swift in Sources */,
+				0E6C07E62B7B9865007362A3 /* Datas.swift in Sources */,
+				0E6C07E42B7B982B007362A3 /* Stadium.swift in Sources */,
+				0E6C07E02B7B9765007362A3 /* TableVC.swift in Sources */,
+				0E6C07E22B7B97C4007362A3 /* Club.swift in Sources */,
+				0E6C07DE2B7B9743007362A3 /* MapVC.swift in Sources */,
 				0E6C07C92B7B93D1007362A3 /* SceneDelegate.swift in Sources */,
+				0E6C07E82B7BA2B6007362A3 /* ClubCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
