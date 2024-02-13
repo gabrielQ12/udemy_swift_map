@@ -1,8 +1,8 @@
 //
 //  Stadium.swift
-//  Top14Map
+//  Stadium
 //
-//  Created by Gaby on 13/02/2024.
+//  Created by matthieu passerel on 02/09/2021.
 //
 
 import Foundation
